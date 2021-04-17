@@ -24,7 +24,7 @@ client.on("message", (message) => {
         let motion = readMe[Math.floor(Math.random() * 6914)];
         message.channel.send(motion);
         console.log(motion);
-    }if (comand == "info"){
+    }if (command == "info"){
       message.channel.send('Created by: Rohan Nair');
       message.channel.send('The motions used by this bot are from HelloMotions');
     }
